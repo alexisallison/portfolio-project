@@ -12,31 +12,78 @@ body {
   background-color: var(--first-color);
   font-family: var(--default-font-family);
 }
+
 .hero {
   background-color: var(--second-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 20px 100px;
+}
+
+.hero p {
+  font-size: 36px;
+  margin: 5;
+  color: var(--fourth-color);
 }
 
 .hero h1 {
   color: var(--fifth-color);
   font-family: var(--head-font-family);
-  font-size: 36px;
+  font-size: 76px;
   font-weight: bold;
-  margin: 0;
+  margin: 5;
 }
 
 .hero h3 {
   color: var(--fourth-color);
   line-height: 2;
   font-size: 24px;
+  margin: 5;
 }
 
-.btn {
+.btn-branding {
   color: var(--first-color);
   background-color: var(--fifth-color);
-  border: 1px;
-  border-color: var(--fifth-color);
+  border: 1px solid var(--fifth-color);
   font-size: 16px;
   line-height: 27px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 64px;
+  color: var(--fourth-color);
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--fourth-color);
+}
+
+.btn-branding-outline {
+  color: var(--fifth-color);
+  background-color: var(--first-color);
+  border: 1px solid var(--fifth-color);
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.project-description {
+  padding: 120px 20px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 60px 20px 40px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h3 {
+    font-size: 18px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
