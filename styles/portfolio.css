@@ -75,32 +75,43 @@ p {
 #project-image {
   background-color: var(--second-color);
   padding: 40px 20px;
+  border-radius: 5px;
 }
 
-.about-section {
+.content-container {
   text-align: justify;
   padding: 160px 20px 100px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section h1 {
+.content h1 {
   font-family: var(--head-font-family);
   font-size: 64px;
   color: var(--fifth-color);
   line-height: 1;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 24px;
   color: var(--fourth-color);
 }
 
+.content h3 {
+  color: var(--fifth-color);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
+}
+
 #profile-image {
   width: 637px;
-  height: 700px;
+  height: 680px;
   object-fit: cover;
   border-radius: 5px;
   background-color: var(--second-color);
@@ -121,7 +132,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
