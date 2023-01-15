@@ -11,6 +11,40 @@
 body {
   background-color: var(--first-color);
   font-family: var(--default-font-family);
+  margin: 0px;
+}
+
+nav {
+  padding: 10px;
+}
+
+.logo {
+  max-width: 125px;
+  max-height: 125px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 75px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--fifth-color);
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--third-color);
 }
 
 .hero {
@@ -119,6 +153,14 @@ p {
 }
 
 @media (max-width: 960px) {
+  .logo {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  nav li {
+    font-size: 12px;
+    line-height: 25px;
+  }
   .hero {
     padding: 60px 20px 40px;
   }
