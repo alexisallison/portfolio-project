@@ -152,6 +152,53 @@ p {
   padding: 20px;
 }
 
+footer {
+  margin: 40px 0;
+}
+
+footer .contact-box {
+  background-color: var(--second-color);
+  padding: 20px 100px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-size: 48px;
+  font-family: var(--head-font-family);
+}
+
+footer .contact-box p {
+  margin: 0px;
+  display: inline;
+}
+
+footer .email-link {
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--fourth-color);
+  background-color: var(--second-color);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--second-color);
+  background-color: var(--fourth-color);
+}
+
 @media (max-width: 960px) {
   .logo {
     max-width: 50px;
