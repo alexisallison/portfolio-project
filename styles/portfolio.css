@@ -50,7 +50,7 @@ nav li.active a {
 .hero {
   background-color: var(--second-color);
   text-align: center;
-  padding: 160px 20px 100px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -106,7 +106,7 @@ p {
   padding: 120px 20px;
 }
 
-#project-image {
+.project-image {
   background-color: var(--second-color);
   padding: 40px 20px;
   border-radius: 5px;
@@ -197,6 +197,15 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--second-color);
   background-color: var(--fourth-color);
+}
+
+footer .open-source-link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+footer .open-source-link:hover {
+  color: var(--fifth-color);
 }
 
 @media (max-width: 960px) {

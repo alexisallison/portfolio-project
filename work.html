@@ -23,6 +23,10 @@
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Coding Projects created by Alexis Allison. Her projects have included blogs, apps and websites that utilize HTML,CSS, Javascript, Bootstrap, Responsive."
+    />
     <title>Coding Projects</title>
     <script
       src="https://kit.fontawesome.com/4b4dc44904.js"
@@ -38,10 +42,12 @@
           alt="Alexis Allison Logo"
         />
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Portfolio</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Hompage">Home</a></li>
+          <li><a href="/about.html" title="About Alexis">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Alexis' Work">Portfolio</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Alexis">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -53,20 +59,20 @@
             <img
               src="/images/interior-design.png"
               alt="interior design blog"
-              class="img-fluid mb-3"
-              id="project-image"
+              class="project-image img-fluid mb-3"
+              id="interior-design"
             />
-            <h3 class="text-center m-0">interior Design</h3>
+            <h3 class="text-center m-0">Interior Design Blog</h3>
             <p class="text-center">Built with HTML,CSS</p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/images/weather-app.png"
               alt="weather app"
-              class="img-fluid mb-3"
-              id="project-image"
+              class="project-image img-fluid mb-3"
+              id="weather-app"
             />
-            <h3 class="text-center m-0">weather app</h3>
+            <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center">Built with HTML, CSS, Javascript, API</p>
           </div>
 
@@ -74,24 +80,82 @@
             <img
               src="/images/dictionary.png"
               alt="dictionary app"
-              class="img-fluid mb-3"
-              id="project-image"
+              class="project-image img-fluid mb-3"
+              id="dictionary"
             />
-            <h3 class="text-center m-0">dictionary app</h3>
+            <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center">Built with HTML, CSS, Javascript, API</p>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/images/translation.png"
               alt="translation app"
-              class="img-fluid mb-3"
-              id="project-image"
+              class="project-image img-fluid mb-3"
+              id="translation-app"
             />
-            <h3 class="text-center m-0">translation app</h3>
+            <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center">Built with HTML, CSS, Javascript, API</p>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Alexis"
+              class="btn btn-branding mt-4"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:alexisallison1801@gmail.com"
+            class="btn email-link"
+            title="Email Alexis"
+            >alexisallison1801@gmail.com</a
+          >
+        </div>
+        <div class="d-flex justify-content-center social-links">
+          <a
+            href="https:instagram.com/alexis_codes"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/alexisallison"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alexis-allison-753769222"
+            target="_blank"
+            title="Linked-In Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center mt-3">
+          This site was coded by Alexis and is
+          <a
+            href="https://github.com/alexisallison/portfolio-project.git"
+            target="_blank"
+            title="GitHub Repository"
+            class="open-source-link"
+            >open-sourced</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

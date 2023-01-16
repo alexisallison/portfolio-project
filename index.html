@@ -32,7 +32,11 @@
     </style>
     <link href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexis Allison</title>
+    <meta
+      name="description"
+      content="Alexis Allison is a trained front-end developer based in Ashland, OH. She is here to help you with all your website needs; HTML, CSS, Javascript, Responsive."
+    />
+    <title>Front-End Developer-Alexis Allison</title>
     <script
       src="https://kit.fontawesome.com/4b4dc44904.js"
       crossorigin="anonymous"
@@ -47,21 +51,22 @@
           alt="Alexis Allison Logo"
         />
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Portfolio</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Hompage">Home</a></li>
+          <li><a href="/about.html" title="About Alexis">About</a></li>
+          <li><a href="/work.html" title="Alexis' Work">Portfolio</a></li>
+          <li><a href="/contact.html" title="Contact Alexis">Contact</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="hero">
-      <p>Nice to meet you, my name is</p>
+      <p>👋Hi there, I am...</p>
       <h1>Alexis Allison</h1>
       <h3>Front End Developer in Ashland, OH</h3>
       <div>
-        <a href="/contact.html" class="btn btn-branding">Let's Connect</a>
-        <a href="/about.html" class="btn btn-branding">More About Me</a>
+        <a href="/contact.html" title="Contact Alexis" class="btn btn-branding"
+          >Let's Connect</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured Projects</p>
@@ -70,8 +75,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/interior-design.png"
-            class="img-fluid"
-            id="project-image"
+            class="project-image img-fluid"
             alt="HTML Project"
           />
         </div>
@@ -82,7 +86,11 @@
               Basic HTML landing page for an interior design blog. This project
               utilized basic HTML,CSS and JavaScript.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a
+              href="/work.html#interior-design"
+              class="btn btn-branding-outline"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
@@ -95,21 +103,26 @@
               Location API to search for any city and display the current
               temperature and forecast for the next 5 days.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html#weather-app" class="btn btn-branding-outline"
+              >Learn More</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="/images/weather-app.png"
-            class="img-fluid"
-            id="project-image"
-            alt=""
+            class="project-image img-fluid"
+            alt="Weather App"
           />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="/images/dictionary.png"
+            class="project-image img-fluid"
+            alt="Dictionary App"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -120,38 +133,70 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html#dictionary" class="btn btn-branding-outline"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
-      <footer>
+    </div>
+    <footer>
+      <div class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h4>Work Inquiry</h4>
             <p>Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-branding mt-4">Contact Me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Alexis"
+              class="btn btn-branding mt-4"
+              >Contact Me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:alexisallison1801@gmail.com" class="btn email-link"
+          <a
+            href="mailto:alexisallison1801@gmail.com"
+            class="btn email-link"
+            title="Email Alexis"
             >alexisallison1801@gmail.com</a
           >
         </div>
         <div class="d-flex justify-content-center social-links">
-          <a href="https:instagram.com/alexis_codes" target="_blank"
+          <a
+            href="https:instagram.com/alexis_codes"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/alexisallison" target="_blank">
+          <a
+            href="https://github.com/alexisallison"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/alexis-allison-753769222"
             target="_blank"
+            title="Linked-In Profile"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
-      </footer>
-    </div>
+        <p class="text-center mt-3">
+          This site was coded by Alexis and is
+          <a
+            href="https://github.com/alexisallison/portfolio-project.git"
+            target="_blank"
+            title="GitHub Repository"
+            class="open-source-link"
+            >open-sourced</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
